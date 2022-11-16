@@ -1,17 +1,24 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'teswithframeulsQfl.ui'
+## Form generated from reading UI file 'teswithframe.ui'
 ##
-## Created by: Qt User Interface Compiler version 5.15.2
+## Created by: Qt User Interface Compiler version 6.3.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide2.QtCore import *
-from PySide2.QtGui import *
-from PySide2.QtWidgets import *
-
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QAbstractItemView, QApplication, QComboBox, QDoubleSpinBox,
+    QFrame, QHeaderView, QLabel, QLineEdit,
+    QMainWindow, QPushButton, QSizePolicy, QTableWidget,
+    QTableWidgetItem, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -19,7 +26,7 @@ class Ui_MainWindow(object):
             MainWindow.setObjectName(u"MainWindow")
         MainWindow.resize(778, 499)
         icon = QIcon()
-        icon.addFile(u"./assets/img/icon.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon.addFile(u"../assets/img/icon.png", QSize(), QIcon.Normal, QIcon.Off)
         MainWindow.setWindowIcon(icon)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
@@ -33,10 +40,9 @@ class Ui_MainWindow(object):
         self.label_23.setObjectName(u"label_23")
         self.label_23.setGeometry(QRect(30, 25, 81, 16))
         font = QFont()
-        font.setFamily(u"Arial")
+        font.setFamilies([u"Arial"])
         font.setPointSize(12)
         font.setBold(True)
-        font.setWeight(75)
         self.label_23.setFont(font)
         self.label_23.setStyleSheet(u"color: rgb(255, 255, 255);")
         self.txtFormula = QLineEdit(self.frame)
@@ -59,7 +65,6 @@ class Ui_MainWindow(object):
         font2 = QFont()
         font2.setPointSize(11)
         font2.setBold(True)
-        font2.setWeight(75)
         self.spinB.setFont(font2)
         self.spinB.setStyleSheet(u"color: rgb(255, 255, 255);")
         self.spinB.setDecimals(4)
@@ -68,10 +73,9 @@ class Ui_MainWindow(object):
         self.label_26.setObjectName(u"label_26")
         self.label_26.setGeometry(QRect(510, 290, 31, 16))
         font3 = QFont()
-        font3.setFamily(u"Arial")
+        font3.setFamilies([u"Arial"])
         font3.setPointSize(14)
         font3.setBold(True)
-        font3.setWeight(75)
         self.label_26.setFont(font3)
         self.label_26.setStyleSheet(u"color: rgb(255, 255, 255);")
         self.label_9 = QLabel(self.frame)
@@ -220,10 +224,9 @@ class Ui_MainWindow(object):
         self.cbxTipoRegla.setObjectName(u"cbxTipoRegla")
         self.cbxTipoRegla.setGeometry(QRect(430, 100, 301, 31))
         font4 = QFont()
-        font4.setFamily(u"Arial")
+        font4.setFamilies([u"Arial"])
         font4.setPointSize(11)
         font4.setBold(True)
-        font4.setWeight(75)
         self.cbxTipoRegla.setFont(font4)
         self.cbxTipoRegla.setStyleSheet(u"QComboBox{\n"
 "	background-color: white;\n"
@@ -273,7 +276,6 @@ class Ui_MainWindow(object):
         font5 = QFont()
         font5.setPointSize(12)
         font5.setBold(True)
-        font5.setWeight(75)
         self.btnCalcularMet.setFont(font5)
         self.btnCalcularMet.setCursor(QCursor(Qt.PointingHandCursor))
         self.btnCalcularMet.setStyleSheet(u"QPushButton\n"
