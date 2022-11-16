@@ -1,4 +1,4 @@
-from PySide2.QtWidgets import QMainWindow, QTableWidgetItem, QFileDialog
+from PySide2.QtWidgets import QMainWindow, QTableWidgetItem
 from views.MainView import Ui_MainWindow
 from model.ConTrapecio import ConTrapecio
 from model.ConSimpson import ConSimpson
