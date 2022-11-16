@@ -1,12 +1,16 @@
 # Métodos Numéricos
 
-### Métodos De Trapecio 
+### Regla Del Trapecio 
 - Simple
 - Múltiple
-Regla De Simpson
+## Regla De Simpson
 - 1/3 Simple
 - 1/3 Múltiple
 - 3/8
 
 ### Languaje
-Python con su libreria PySide2
+Python
+
+### Librerias
+- PySide2 
+- sympy
